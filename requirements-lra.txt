@@ -7,3 +7,4 @@ tensorflow-datasets>=4.0.1
 tensorflow-text>=2.7.3
 submitit
 fvcore
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
