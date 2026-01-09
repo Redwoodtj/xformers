@@ -7,3 +7,5 @@ tensorflow-datasets>=4.0.1
 tensorflow-text>=2.7.3
 submitit
 fvcore
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
