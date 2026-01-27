@@ -1,5 +1,6 @@
 # Example requirement, can be anything that pip knows
 # install with `pip install -r requirements.txt`, and make sure that CI does the same
-torch >= 1.12
+torch>=2.10.0
 numpy
 pyre-extensions == 0.0.23
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
